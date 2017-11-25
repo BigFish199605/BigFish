@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tarena.ht.mapper.DeptMapper">
+	
+ 
+	
+	<resultMap type="Dept" id="deptRM" autoMapping="true">
+		<id column="dept_id" property="deptId"/>
+	 	<association property="parentDept" javaType="Dept">
+	 		<id column="p_id" property="deptId"/>
+	 		<result column="p_name" property="deptName"/>
+	 	</association>
+		
+	</resultMap>
+	<select id="findAll" resultMap="deptRM">
+		SELECT * FROM
+dept_p d
+	LEFT JOIN
+(SELECT dept_id p_id,dept_name p_name FROM DEPT_P) p
+	ON d.`PARENT_ID`=p.p_id ORDER BY dept_id
+	</select>
+	
+	<update id="changeState">
+		UPDATE dept_p SET state=#{state} WHERE dept_id in 
+		<!-- collection： array list 如果传递过来的参数 是多个参数  collection赋值需要是字典中的key值  -->
+		<foreach collection="deptIds" item="deptId" open="(" close=")" separator=",">
+		#{deptId}
+		</foreach>
+	</update>
+	
+	<!-- 批量删除 -->
+	<delete id="delete">
+		DELETE FROM dept_p WHERE dept_id IN 
+		<foreach collection="array" item="deptId" open="(" close=")" separator=",">
+		#{deptId}
+		</foreach>
+	</delete>
+	
+	<!-- 插入部门 -->
+	<insert id="saveDept" >
+		INSERT INTO dept_p (dept_id,parent_id,dept_name,state) 
+		VALUES 
+		(#{deptId},#{parentDept.deptId},#{deptName},#{state})
+	</insert>
+	
+	<!-- 因为查询单个和查询多个返回的数据类型一致 所以可以复用 查询多个的resultMap -->
+	<select id="findOne" resultMap="deptRM">
+	SELECT * FROM 
+(SELECT * FROM DEPT_P WHERE dept_id=#{id}) d
+	LEFT JOIN
+(SELECT dept_id p_id, dept_name p_name FROM DEPT_P) p
+	ON d.parent_id=p.p_id
+	
+	</select>
+	
+	
+	<!-- 修改部门 -->
+	<update id="update" >
+		UPDATE dept_p SET dept_name=#{deptName},parent_id=#{parentDept.deptId},state=#{state} WHERE dept_id=#{deptId}
+	</update>
+
+	
+</mapper>

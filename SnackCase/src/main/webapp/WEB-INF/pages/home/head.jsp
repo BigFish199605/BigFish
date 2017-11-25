@@ -37,7 +37,6 @@
 				<!--悬浮搜索框-->
 
 				<div class="nav white">
-					<div class="logo"><img src="${sc}/staticsource/images/logo.png" /></div>
 					<div class="logoBig">
 						<li><img src="${sc}/staticsource/images/logo.png" /></li>
 					</div>

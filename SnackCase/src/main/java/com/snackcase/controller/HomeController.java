@@ -22,7 +22,14 @@ public class HomeController {
 		return "/product/sort";
 	}
 	
+	@RequestMapping("/collection")
+	public String toCollection(){
+		return "/home/collection";
+	}
 	
-
+	@RequestMapping("/information")
+	public String toInformation(){
+		return "/home/collection";
+	}
 
 }

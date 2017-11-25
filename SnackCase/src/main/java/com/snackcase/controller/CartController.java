@@ -14,4 +14,8 @@ public class CartController {
 	public String toPay(){
 		return "/cart/pay";
 	}
+	@RequestMapping("success")
+	public String toSuccess(){
+		return "/cart/success";
+	}
 }

@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -308,7 +308,7 @@
 							<p class="cart_num">0</p>
 						</div>
 						<div id="asset" class="item">
-							<a href="#">
+							<a href="cart">
 								<span class="view"></span>
 							</a>
 							<div class="mp_tooltip">
@@ -328,7 +328,7 @@
 						</div>
 
 						<div id="brand" class="item">
-							<a href="#">
+							<a href="collection">
 								<span class="wdsc"><img src="${sc}/staticsource/images/wdsc.png" /></span>
 							</a>
 							<div class="mp_tooltip">

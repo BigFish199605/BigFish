@@ -7,15 +7,14 @@
 
 		<title>购物车页面</title>
 
-		<link href="${pageContext.request.contextPath}/staticsource/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
-		<link href="${pageContext.request.contextPath}/staticsource/basic/css/demo.css" rel="stylesheet" type="text/css" />
-		<link href="${pageContext.request.contextPath}/staticsource/css/cartstyle.css" rel="stylesheet" type="text/css" />
-		<link href="${pageContext.request.contextPath}/staticsource/css/optstyle.css" rel="stylesheet" type="text/css" />
+		<link href="${sc}/staticsource/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+		<link href="${sc}/staticsource/basic/css/demo.css" rel="stylesheet" type="text/css" />
+		<link href="${sc}/staticsource/css/cartstyle.css" rel="stylesheet" type="text/css" />
+		<link href="${sc}/staticsource/css/optstyle.css" rel="stylesheet" type="text/css" />
 
-		<script type="text/javascript" src="${pageContext.request.contextPath}/staticsource/js/jquery.js"></script>
+		<script type="text/javascript" src="${sc}/staticsource/js/jquery.js"></script>
 
 	</head>
-
 	<body>
 	
 		<%@ include file="../home/head.jsp" %>
@@ -74,7 +73,7 @@
 									<li class="td td-item">
 										<div class="item-pic">
 											<a href="#" target="_blank" data-title="美康粉黛醉美东方唇膏口红正品 持久保湿滋润防水不掉色护唇彩妆" class="J_MakePoint" data-point="tbcart.8.12">
-												<img src="${pageContext.request.contextPath}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
+												<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
 										</div>
 										<div class="item-info">
 											<div class="item-basic-info">
@@ -141,7 +140,7 @@
 									<li class="td td-item">
 										<div class="item-pic">
 											<a href="#" target="_blank" data-title="美康粉黛醉美东方唇膏口红正品 持久保湿滋润防水不掉色护唇彩妆" class="J_MakePoint" data-point="tbcart.8.12">
-												<img src="${pageContext.request.contextPath}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
+												<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
 										</div>
 										<div class="item-info">
 											<div class="item-basic-info">
@@ -226,7 +225,7 @@
 									<li class="td td-item">
 										<div class="item-pic">
 											<a href="#" target="_blank" data-title="美康粉黛醉美东方唇膏口红正品 持久保湿滋润防水不掉色护唇彩妆" class="J_MakePoint" data-point="tbcart.8.12">
-												<img src="${pageContext.request.contextPath}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
+												<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
 										</div>
 										<div class="item-info">
 											<div class="item-basic-info">

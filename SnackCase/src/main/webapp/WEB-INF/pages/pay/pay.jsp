@@ -1,29 +1,27 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0 ,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<title>结算页面</title>
 
-		<link href="${sc }/staticsource/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+		<link href="${sc}/staticsource/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
 
-		<link href="${sc }/staticsource/basic/css/demo.css" rel="stylesheet" type="text/css" />
-		<link href="${sc }/staticsource/css/cartstyle.css" rel="stylesheet" type="text/css" />
+		<link href="${sc}/staticsource/basic/css/demo.css" rel="stylesheet" type="text/css" />
+		<link href="${sc}/staticsource/css/cartstyle.css" rel="stylesheet" type="text/css" />
 
-		<link href="${sc }/staticsource/css/jsstyle.css" rel="stylesheet" type="text/css" />
+		<link href="${sc}/staticsource/css/jsstyle.css" rel="stylesheet" type="text/css" />
 
-		<script type="text/javascript" src="${sc }/staticsource/js/address.js"></script>
+		<script type="text/javascript" src="${sc}/staticsource/js/address.js"></script>
 
 	</head>
 
 	<body>
-
+		
 		<%@ include file="../home/head.jsp" %>
-
+		
 			<div class="clear"></div>
 			<div class="concent">
 				<!--地址 -->
@@ -43,7 +41,7 @@
 
 										<span class="buy-address-detail">   
                    <span class="buy-user">艾迪 </span>
-										<span class="buy-phone">15888888888</span>
+										<span class="buy-phone">15871145629</span>
 										</span>
 									</div>
 									<div class="default-address DefaultAddr">
@@ -60,7 +58,7 @@
 									<ins class="deftip">默认地址</ins>
 								</div>
 								<div class="address-right">
-									<a href="../person/address.html">
+									<a href="address">
 										<span class="am-icon-angle-right am-icon-lg"></span></a>
 								</div>
 								<div class="clear"></div>
@@ -81,7 +79,7 @@
 
 										<span class="buy-address-detail">   
                    <span class="buy-user">艾迪 </span>
-										<span class="buy-phone">15877777777</span>
+										<span class="buy-phone">15871145629</span>
 										</span>
 									</div>
 									<div class="default-address DefaultAddr">
@@ -90,7 +88,7 @@
 								   <span class="province">湖北</span>省
 										<span class="city">武汉</span>市
 										<span class="dist">武昌</span>区
-										<span class="street">东湖路75号众环大厦9栋9层999</span>
+										<span class="street">东湖路75号众环大厦2栋9层902</span>
 										</span>
 
 										</span>
@@ -133,14 +131,14 @@
 					<div class="logistics">
 						<h3>选择支付方式</h3>
 						<ul class="pay-list">
-							<li class="pay card"><img src="${sc }/staticsource/images/wangyin.jpg" />银联<span></span></li>
-							<li class="pay qq"><img src="${sc }/staticsource/images/weizhifu.jpg" />微信<span></span></li>
-							<li class="pay taobao"><img src="${sc }/staticsource/images/zhifubao.jpg" />支付宝<span></span></li>
+							<li class="pay card"><img src="${sc}/staticsource/images/wangyin.jpg" />银联<span></span></li>
+							<li class="pay qq"><img src="${sc}/staticsource/images/weizhifu.jpg" />微信<span></span></li>
+							<li class="pay taobao"><img src="${sc}/staticsource/images/zhifubao.jpg" />支付宝<span></span></li>
 						</ul>
 					</div>
 					<div class="clear"></div>
 
-					<!--订单 -->
+				<!-- 确认订单信息 -->
 					<div class="concent">
 						<div id="payTable">
 							<h3>确认订单信息</h3>
@@ -176,7 +174,7 @@
 												<li class="td td-item">
 													<div class="item-pic">
 														<a href="#" class="J_MakePoint">
-															<img src="${sc }/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
+															<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
 													</div>
 													<div class="item-info">
 														<div class="item-basic-info">
@@ -240,7 +238,7 @@
 												<li class="td td-item">
 													<div class="item-pic">
 														<a href="#" class="J_MakePoint">
-															<img src="${sc }/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
+															<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg"></a>
 													</div>
 													<div class="item-info">
 														<div class="item-basic-info">
@@ -400,87 +398,17 @@
 											</p>
 										</div>
 									</div>
-									</div>
+
 									<div id="holyshit269" class="submitOrder">
 										<div class="go-btn-wrap">
 											<a id="J_Go" href="success" class="btn-go" tabindex="0" title="点击此按钮，提交订单">提交订单</a>
 										</div>
 									</div>
 									<div class="clear"></div>
-								
+								</div>
 							</div>
 						</div>
 
 						<div class="clear"></div>
-					</div>
-				</div>
-			<!-- 页脚 -->
-			<%@ include file="../home/foot.jsp" %>
-			</div>
-			<div class="theme-popover-mask"></div>
-			<div class="theme-popover">
-
-				<!--标题 -->
-				<div class="am-cf am-padding">
-					<div class="am-fl am-cf"><strong class="am-text-danger am-text-lg">新增地址</strong> / <small>Add address</small></div>
-				</div>
-				<hr/>
-
-				<div class="am-u-md-12">
-					<form class="am-form am-form-horizontal">
-
-						<div class="am-form-group">
-							<label for="user-name" class="am-form-label">收货人</label>
-							<div class="am-form-content">
-								<input type="text" id="user-name" placeholder="收货人">
-							</div>
-						</div>
-
-						<div class="am-form-group">
-							<label for="user-phone" class="am-form-label">手机号码</label>
-							<div class="am-form-content">
-								<input id="user-phone" placeholder="手机号必填" type="email">
-							</div>
-						</div>
-
-						<div class="am-form-group">
-							<label for="user-phone" class="am-form-label">所在地</label>
-							<div class="am-form-content address">
-								<select data-am-selected>
-									<option value="a">浙江省</option>
-									<option value="b">湖北省</option>
-								</select>
-								<select data-am-selected>
-									<option value="a">温州市</option>
-									<option value="b">武汉市</option>
-								</select>
-								<select data-am-selected>
-									<option value="a">瑞安区</option>
-									<option value="b">洪山区</option>
-								</select>
-							</div>
-						</div>
-
-						<div class="am-form-group">
-							<label for="user-intro" class="am-form-label">详细地址</label>
-							<div class="am-form-content">
-								<textarea class="" rows="3" id="user-intro" placeholder="输入详细地址"></textarea>
-								<small>100字以内写出你的详细地址...</small>
-							</div>
-						</div>
-
-						<div class="am-form-group theme-poptit">
-							<div class="am-u-sm-9 am-u-sm-push-3">
-								<div class="am-btn am-btn-danger">保存</div>
-								<div class="am-btn am-btn-danger close">取消</div>
-							</div>
-						</div>
-					</form>
-				</div>
-
-			</div>
-
-			<div class="clear"></div>
-	</body>
-
+					</div></body>
 </html>

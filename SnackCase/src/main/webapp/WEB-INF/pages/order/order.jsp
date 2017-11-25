@@ -6,11 +6,20 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+	
+		<link href="${sc}/staticsource/AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css">
+		<link href="${sc}/staticsource/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css">
 
+		<link href="${sc}/staticsource/css/personal.css" rel="stylesheet" type="text/css">
+		<link href="${sc}/staticsource/css/orstyle.css" rel="stylesheet" type="text/css">
+
+		<script src="${sc}/staticsource/AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+		<script src="${sc}/staticsource/AmazeUI-2.4.2/assets/js/amazeui.js"></script>
 		<title>订单管理</title>
 
 	</head>
 	
+		<%@ include file="../home/head.jsp" %>
 	
 						<div class="clear"></div>
 					</div>
@@ -21,7 +30,7 @@
 					   <div class="long-title"><span class="all-goods">全部分类</span></div>
 					   <div class="nav-cont">
 							<ul>
-								<li class="index"><a href="#">首页</a></li>
+								<li class="index"><a href="home">首页</a></li>
                                 <li class="qc"><a href="#">闪购</a></li>
                                 <li class="qc"><a href="#">限时抢</a></li>
                                 <li class="qc"><a href="#">团购</a></li>
@@ -98,7 +107,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -132,7 +141,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -166,7 +175,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -235,7 +244,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -269,7 +278,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -303,7 +312,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -368,7 +377,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -402,7 +411,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -436,7 +445,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -502,7 +511,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -536,7 +545,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -638,7 +647,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -672,7 +681,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -706,7 +715,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -752,7 +761,7 @@
 																</div>
 															</li>
 															<li class="td td-change">
-																<a href="pay.html">
+																<a href="pay">
 																<div class="am-btn am-btn-danger anniu">
 																	一键支付</div></a>
 															</li>
@@ -804,7 +813,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -838,7 +847,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -872,7 +881,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -966,7 +975,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -1000,7 +1009,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -1099,7 +1108,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -1169,7 +1178,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -1203,7 +1212,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/62988.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -1237,7 +1246,7 @@
 															<li class="td td-item">
 																<div class="item-pic">
 																	<a href="#" class="J_MakePoint">
-																		<img src="../images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
+																		<img src="${sc}/staticsource/images/kouhong.jpg_80x80.jpg" class="itempic J_ItemImg">
 																	</a>
 																</div>
 																<div class="item-info">
@@ -1288,7 +1297,7 @@
 																<a href="commentlist.html">
 																	<div class="am-btn am-btn-danger anniu">
 																		评价商品</div>
-																</a>
+																										</a>
 															</li>
 														</div>
 													</div>
@@ -1306,6 +1315,14 @@
 						</div>
 					</div>
 				</div>
+				<!--底部-->
+				<%@ include file="../home/foot.jsp" %>
+			</div>
+			<%@ include file="../home/frame.jsp" %>
+			</aside>
+		</div>
+
+	</body>
 		
 
 	</body>

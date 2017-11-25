@@ -9,70 +9,24 @@
 
 		<title>个人中心</title>
 
-		<link href="../AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css">
-		<link href="../AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css">
-		<link href="../css/personal.css" rel="stylesheet" type="text/css">
-		<link href="../css/vipstyle.css" rel="stylesheet" type="text/css">
-		<script src="../AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
-		<script src="../AmazeUI-2.4.2/assets/js/amazeui.js"></script>
+		<link href="${sc}/staticsource/AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css">
+		<link href="${sc}/staticsource/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css">
+		<link href="${sc}/staticsource/css/personal.css" rel="stylesheet" type="text/css">
+		<link href="${sc}/staticsource/css/vipstyle.css" rel="stylesheet" type="text/css">
+		<script src="${sc}/staticsource/AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+		<script src="${sc}/staticsource/AmazeUI-2.4.2/assets/js/amazeui.js"></script>
 	</head>
 
 	<body>
-		<!--头 -->
-		<header>
-			<article>
-				<div class="mt-logo">
-					<!--顶部导航条 -->
-					<div class="am-container header">
-						<ul class="message-l">
-							<div class="topMessage">
-								<div class="menu-hd">
-									<a href="#" target="_top" class="h">亲，请登录</a>
-									<a href="#" target="_top">免费注册</a>
-								</div>
-							</div>
-						</ul>
-						<ul class="message-r">
-							<div class="topMessage home">
-								<div class="menu-hd"><a href="#" target="_top" class="h">商城首页</a></div>
-							</div>
-							<div class="topMessage my-shangcheng">
-								<div class="menu-hd MyShangcheng"><a href="#" target="_top"><i class="am-icon-user am-icon-fw"></i>个人中心</a></div>
-							</div>
-							<div class="topMessage mini-cart">
-								<div class="menu-hd"><a id="mc-menu-hd" href="#" target="_top"><i class="am-icon-shopping-cart  am-icon-fw"></i><span>购物车</span><strong id="J_MiniCartNum" class="h">0</strong></a></div>
-							</div>
-							<div class="topMessage favorite">
-								<div class="menu-hd"><a href="#" target="_top"><i class="am-icon-heart am-icon-fw"></i><span>收藏夹</span></a></div>
-						</ul>
-						</div>
+	
+		<%@ include file="../home/head.jsp" %>
+	
 
-						<!--悬浮搜索框-->
-
-						<div class="nav white">
-							<div class="logoBig">
-								<li><img src="../images/logobig.png" /></li>
-							</div>
-
-							<div class="search-bar pr">
-								<a name="index_none_header_sysc" href="#"></a>
-								<form>
-									<input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
-									<input id="ai-topsearch" class="submit am-btn" value="搜索" index="1" type="submit">
-								</form>
-							</div>
-						</div>
-
-						<div class="clear"></div>
-					</div>
-				</div>
-			</article>
-		</header>
 		<div class="nav-table">
 			<div class="long-title"><span class="all-goods">全部分类</span></div>
 			<div class="nav-cont">
 				<ul>
-					<li class="index"><a href="#">首页</a></li>
+					<li class="index"><a href="home">首页</a></li>
 					<li class="qc"><a href="#">闪购</a></li>
 					<li class="qc"><a href="#">限时抢</a></li>
 					<li class="qc"><a href="#">团购</a></li>
@@ -94,12 +48,12 @@
 								<!--个人信息 -->
 
 								<div class="m-userinfo">
-									<a href="news.html">
+									<a href="news">
 										<div class="tipsBox"><i class="am-icon-envelope"></i></div>
 									</a>
 									<div class="m-baseinfo">
-										<a class="m-pic" href="information.html">
-											<img src="../images/getAvatar.do.jpg">
+										<a class="m-pic" href="information">
+											<img src="${sc}/staticsource/images/getAvatar.do.jpg">
 										</a>
 										<div class="m-info">
 											<em class="s-name">小叮当</em>
@@ -108,13 +62,13 @@
 												<div class="progressBar"><span style="left: -95px;" class="progress"></span></div>
 											</div>
 											<div class="m-address">
-												<a href="address.html" class="i-trigger">收货地址<i class="am-icon-angle-right" style="padding-left:5px ;"></i></a>
+												<a href="address" class="i-trigger">收货地址<i class="am-icon-angle-right" style="padding-left:5px ;"></i></a>
 											</div>
 										</div>
 									</div>
 									<div class="m-right">
 										<div class="m-new">
-											<a href="news.html"><i class="am-icon-dropbox  am-icon-md" style="padding-right:5px ;"></i>消息盒子</a>
+											<a href="news"><i class="am-icon-dropbox  am-icon-md" style="padding-right:5px ;"></i>消息盒子</a>
 										</div>
 
 									</div>
@@ -152,19 +106,19 @@
 									</div>
 									<p class="m-big squareS">
 										<a href="#">
-											<i><img src="../images/shopping.png"/></i>
+											<i><img src="${sc}/staticsource/images/shopping.png"/></i>
 											<span class="m-title">能购物</span>
 										</a>
 									</p>
 									<p class="m-big squareA">
 										<a href="#">
-											<i><img src="../images/safe.png"/></i>
+											<i><img src="${sc}/staticsource/images/safe.png"/></i>
 											<span class="m-title">够安全</span>
 										</a>
 									</p>
 									<p class="m-big squareL">
 										<a href="#">
-											<i><img src="../images/profit.png"/></i>
+											<i><img src="${sc}/staticsource/images/profit.png"/></i>
 											<span class="m-title">很灵活</span>
 										</a>
 									</p>
@@ -177,24 +131,24 @@
 							<div class="m-order">
 								<div class="s-bar">
 									<i class="s-icon"></i>我的订单
-									<a class="i-load-more-item-shadow" href="order.html">全部订单</a>
+									<a class="i-load-more-item-shadow" href="order">全部订单</a>
 								</div>
 								<ul>
-									<li><a href="order.html"><i><img src="../images/pay.png"/></i><span>待付款</span></a></li>
-									<li><a href="order.html"><i><img src="../images/send.png"/></i><span>待发货<em class="m-num">1</em></span></a></li>
-									<li><a href="order.html"><i><img src="../images/receive.png"/></i><span>待收货</span></a></li>
-									<li><a href="order.html"><i><img src="../images/comment.png"/></i><span>待评价<em class="m-num">3</em></span></a></li>
-									<li><a href="change.html"><i><img src="../images/refund.png"/></i><span>退换货</span></a></li>
+									<li><a href="order"><i><img src="${sc}/staticsource/images/pay.png"/></i><span>待付款</span></a></li>
+									<li><a href="order"><i><img src="${sc}/staticsource/images/send.png"/></i><span>待发货<em class="m-num">1</em></span></a></li>
+									<li><a href="order"><i><img src="${sc}/staticsource/images/receive.png"/></i><span>待收货</span></a></li>
+									<li><a href="order"><i><img src="${sc}/staticsource/images/comment.png"/></i><span>待评价<em class="m-num">3</em></span></a></li>
+									<li><a href="change"><i><img src="${sc}/staticsource/images/refund.png"/></i><span>退换货</span></a></li>
 								</ul>
 								<div class="orderContentBox">
 									<div class="orderContent">
 										<div class="orderContentpic">
 											<div class="imgBox">
-												<a href="orderinfo.html"><img src="../images/youzi.jpg"></a>
+												<a href="orderinfo"><img src="${sc}/staticsource/images/youzi.jpg"></a>
 											</div>
 										</div>
 										<div class="detailContent">
-											<a href="orderinfo.html" class="delivery">签收</a>
+											<a href="orderinfo" class="delivery">签收</a>
 											<div class="orderID">
 												<span class="time">2016-03-09</span>
 												<span class="splitBorder">|</span>
@@ -215,11 +169,11 @@
 									<div class="orderContent">
 										<div class="orderContentpic">
 											<div class="imgBox">
-												<a href="orderinfo.html"><img src="../images/heart.jpg"></a>
+												<a href="orderinfo"><img src="${sc}/staticsource/images/heart.jpg"></a>
 											</div>
 										</div>
 										<div class="detailContent">
-											<a href="orderinfo.html" class="delivery">派件</a>
+											<a href="orderinfo" class="delivery">派件</a>
 											<div class="orderID">
 												<span class="time">2016-03-09</span>
 												<span class="splitBorder">|</span>
@@ -242,12 +196,12 @@
 									<i class="s-icon"></i>我的常用
 								</div>
 								<ul>
-									<a href="order.html">
+									<a href="order">
 										<li class="am-u-sm-4"><i class="am-icon-truck am-icon-md"></i>
 											<p>物流查询</p>
 										</li>
 									</a>
-									<a href="collection.html">
+									<a href="collection">
 										<li class="am-u-sm-4"><i class="am-icon-heart am-icon-md"></i>
 											<p>我的收藏</p>
 										</li>
@@ -281,7 +235,7 @@
 									<i class="s-icon"></i>会员中心
 								</div>
 								<div class="s-bar">
-									<a href="suggest.html"><i class="s-icon"></i>意见反馈</a>
+									<a href="suggest"><i class="s-icon"></i>意见反馈</a>
 								</div>
 							</div>
 
@@ -306,12 +260,12 @@
 										</p>
 										<div class="am-slider am-slider-default am-slider-carousel" data-am-flexslider="{itemWidth:108, itemMargin:3, slideshow: false}">
 											<ul class="am-slides">
-												<li><a href="#"><img src="../images/333.jpg" /></a></li>
-												<li><a href="#"><img src="../images/222.jpg" /></a></li>
-												<li><a href="#"><img src="../images/111.jpg" /></a></li>
-												<li><a href="#"><img src="../images/333.jpg" /></a></li>
-												<li><a href="#"><img src="../images/222.jpg" /></a></li>
-												<li><a href="#"><img src="../images/111.jpg" /></a></li>
+												<li><a href="#"><img src="${sc}/staticsource/images/333.jpg" /></a></li>
+												<li><a href="#"><img src="${sc}/staticsource/images/222.jpg" /></a></li>
+												<li><a href="#"><img src="${sc}/staticsource/images/111.jpg" /></a></li>
+												<li><a href="#"><img src="${sc}/staticsource/images/333.jpg" /></a></li>
+												<li><a href="#"><img src="${sc}/staticsource/images/222.jpg" /></a></li>
+												<li><a href="#"><img src="${sc}/staticsource/images/111.jpg" /></a></li>
 											</ul>
 										</div>
 									</div>
@@ -347,7 +301,7 @@
 							<div class="new-goods-info">
 								<a class="shop-info" href="#">
 									<div class="face-img-panel">
-										<img src="../images/imgsearch1.jpg" alt="">
+										<img src="${sc}/staticsource/images/imgsearch1.jpg" alt="">
 									</div>
 									<span class="new-goods-num ">4</span>
 									<span class="shop-title">剥壳松子</span>
@@ -364,7 +318,7 @@
 							<div class="new-goods-info">
 								<a class="shop-info" href="#" target="_blank">
 									<div >
-										<img src="../images/666.jpg" alt="">
+										<img src="${sc}/staticsource/images/666.jpg" alt="">
 									</div>
                                     <span class="one-hot-goods">￥189.60</span>
 								</a>
@@ -385,35 +339,35 @@
                         		<div class="am-slider am-slider-default am-slider-carousel" data-am-flexslider="{itemWidth:155,slideshow: false}">
 									<ul class="am-slides">
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/EZA27501.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/EZA27501.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/BxJk6.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/BxJk6.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/Hxcag60.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/Hxcag60.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/youzi.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/youzi.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/EZA27501.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/EZA27501.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/BxJk6.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/BxJk6.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/Hxcag60.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/Hxcag60.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/youzi.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/youzi.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
 
@@ -424,35 +378,35 @@
                         		<div class="am-slider am-slider-default am-slider-carousel" data-am-flexslider="{itemWidth:155, slideshow: false}">
 									<ul class="am-slides">
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/BxJk6.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/BxJk6.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/Hxcag60.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/Hxcag60.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/youzi.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/youzi.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/EZA27501.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/EZA27501.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/BxJk6.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/BxJk6.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/Hxcag60.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/Hxcag60.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/youzi.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/youzi.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
                                        <li>
-                                       	  <a><img class="am-thumbnail" src="../images/EZA27501.jpg" /></a>
+                                       	  <a><img class="am-thumbnail" src="${sc}/staticsource/images/EZA27501.jpg" /></a>
                                        	  <strong class="price">¥32.9</strong>
                                        </li>
 									</ul>
@@ -461,94 +415,19 @@
                         </div>
                      </div>
 
-
 				</div>
-				<!--底部-->
-				<div class="footer">
-					<div class="footer-hd">
-						<p>
-							<a href="#">恒望科技</a>
-							<b>|</b>
-							<a href="#">商城首页</a>
-							<b>|</b>
-							<a href="#">支付宝</a>
-							<b>|</b>
-							<a href="#">物流</a>
-						</p>
-					</div>
-					<div class="footer-bd">
-						<p>
-							<a href="#">关于恒望</a>
-							<a href="#">合作伙伴</a>
-							<a href="#">联系我们</a>
-							<a href="#">网站地图</a>
-							<em>© 2015-2025 Hengwang.com 版权所有. 更多模板 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></em>
-						</p>
-					</div>
-				</div>
-
-			</div>
-
-			<aside class="menu">
-				<ul>
-					<li class="person active">
-						<a href="index.html"><i class="am-icon-user"></i>个人中心</a>
-					</li>
-					<li class="person">
-						<p><i class="am-icon-newspaper-o"></i>个人资料</p>
-						<ul>
-							<li> <a href="information.html">个人信息</a></li>
-							<li> <a href="safety.html">安全设置</a></li>
-							<li> <a href="address.html">地址管理</a></li>
-							<li> <a href="cardlist.html">快捷支付</a></li>
-						</ul>
-					</li>
-					<li class="person">
-						<p><i class="am-icon-balance-scale"></i>我的交易</p>
-						<ul>
-							<li><a href="order.html">订单管理</a></li>
-							<li> <a href="change.html">退款售后</a></li>
-							<li> <a href="comment.html">评价商品</a></li>
-						</ul>
-					</li>
-					<li class="person">
-						<p><i class="am-icon-dollar"></i>我的资产</p>
-						<ul>
-							<li> <a href="points.html">我的积分</a></li>
-							<li> <a href="coupon.html">优惠券 </a></li>
-							<li> <a href="bonus.html">红包</a></li>
-							<li> <a href="walletlist.html">账户余额</a></li>
-							<li> <a href="bill.html">账单明细</a></li>
-						</ul>
-					</li>
-
-					<li class="person">
-						<p><i class="am-icon-tags"></i>我的收藏</p>
-						<ul>
-							<li> <a href="collection.html">收藏</a></li>
-							<li> <a href="foot.html">足迹</a></li>														
-						</ul>
-					</li>
-
-					<li class="person">
-						<p><i class="am-icon-qq"></i>在线客服</p>
-						<ul>
-							<li> <a href="consultation.html">商品咨询</a></li>
-							<li> <a href="suggest.html">意见反馈</a></li>							
-							
-							<li> <a href="news.html">我的消息</a></li>
-						</ul>
-					</li>
-				</ul>
-
-			</aside>
+				
+		<%@ include file="../home/foot.jsp" %>
+				
+		</div>
+				<%@ include file="../home/frame.jsp" %>
 		</div>
 		<!--引导 -->
 		<div class="navCir">
-			<li><a href="../home/home2.html"><i class="am-icon-home "></i>首页</a></li>
-			<li><a href="../home/sort.html"><i class="am-icon-list"></i>分类</a></li>
-			<li><a href="../home/shopcart.html"><i class="am-icon-shopping-basket"></i>购物车</a></li>
-			<li class="active"><a href="index.html"><i class="am-icon-user"></i>我的</a></li>
+			<li><a href="home"><i class="am-icon-home "></i>首页</a></li>
+			<li><a href="sort"><i class="am-icon-list"></i>分类</a></li>
+			<li><a href="cart"><i class="am-icon-shopping-basket"></i>购物车</a></li>
+			<li class="active"><a href="index"><i class="am-icon-user"></i>我的</a></li>
 		</div>
 	</body>
 

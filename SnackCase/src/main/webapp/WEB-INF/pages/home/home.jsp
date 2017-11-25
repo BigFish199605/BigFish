@@ -737,12 +737,12 @@
 					<div class="am-g am-g-fixed floodFour">
 						<div class="am-u-sm-5 am-u-md-4 text-one list ">
 							<div class="word">
-								<a class="outer" href="introduction"><span class="inner"><b class="text">大核桃</b></span></a>
-								<a class="outer" href="introduction"><span class="inner"><b class="text">小核桃</b></span></a>
-								<a class="outer" href="introduction"><span class="inner"><b class="text">小板凳</b></span></a>	
-								<a class="outer" href="introduction"><span class="inner"><b class="text">花生</b></span></a>
-								<a class="outer" href="introduction"><span class="inner"><b class="text">瓜子</b></span></a>
-								<a class="outer" href="introduction"><span class="inner"><b class="text">矿泉水</b></span></a>									
+								<a class="outer" href="introduction"><span class="inner"><b class="text">核桃</b></span></a>
+								<a class="outer" href="introduction"><span class="inner"><b class="text">核桃</b></span></a>
+								<a class="outer" href="introduction"><span class="inner"><b class="text">核桃</b></span></a>	
+								<a class="outer" href="introduction"><span class="inner"><b class="text">核桃</b></span></a>
+								<a class="outer" href="introduction"><span class="inner"><b class="text">核桃</b></span></a>
+								<a class="outer" href="introduction"><span class="inner"><b class="text">核桃</b></span></a>									
 							</div>
 							<a href="# ">
 								<div class="outer-con ">
@@ -761,7 +761,7 @@
 							<div class="am-u-sm-7 am-u-md-4 text-two sug">
 								<div class="outer-con ">
 									<div class="title ">
-										没有核
+										雪之恋和风大福
 									</div>									
 									<div class="sub-title ">
 										¥13.8
@@ -774,7 +774,7 @@
 							<div class="am-u-sm-7 am-u-md-4 text-two">
 								<div class="outer-con ">
 									<div class="title ">
-										樱桃
+										雪之恋和风大福
 									</div>
 									<div class="sub-title ">
 										¥13.8
@@ -788,7 +788,7 @@
 						<div class="am-u-sm-3 am-u-md-2 text-three big">
 							<div class="outer-con ">
 								<div class="title ">
-									橘子
+									小优布丁
 								</div>
 								<div class="sub-title ">
 									¥4.8
@@ -801,7 +801,7 @@
 						<div class="am-u-sm-3 am-u-md-2 text-three sug">
 							<div class="outer-con ">
 								<div class="title ">
-									蛋糕
+									小优布丁
 								</div>
 								<div class="sub-title ">
 									¥4.8
@@ -814,7 +814,7 @@
 						<div class="am-u-sm-3 am-u-md-2 text-three ">
 							<div class="outer-con ">
 								<div class="title ">
-									蓝莓
+									小优布丁
 								</div>
 								<div class="sub-title ">
 									¥4.8
@@ -827,7 +827,7 @@
 						<div class="am-u-sm-3 am-u-md-2 text-three last big ">
 							<div class="outer-con ">
 								<div class="title ">
-									橙子
+									小优布丁
 								</div>
 								<div class="sub-title ">
 									¥4.8

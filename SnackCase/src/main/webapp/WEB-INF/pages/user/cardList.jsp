@@ -55,7 +55,7 @@
 							<li>
 								<div class="card-box">
 									<div class="card-box-name">
-										<span class="bank-logo"><a href="#"><img src="${sc}/statisource/images/bankjh.png"></a></span>
+										<span class="bank-logo"><a href="#"><img src="${sc}/staticsource/images/bankjh.png"></a></span>
 										<span title="中国建设银行" class="bank-name">中国建设银行</span>
 										<span class="bank-num4">尾号9098</span>
 										<span class="card-type card-type-CC"></span>
@@ -76,7 +76,7 @@
 							<li>
 								<div class="card-box">
 									<div class="card-box-name">
-										<span class="bank-logo"><a href="#"><img src="${sc}/statisource/images/bankns.png"></a></span>
+										<span class="bank-logo"><a href="#"><img src="${sc}/staticsource/images/bankns.png"></a></span>
 										<span title="湖北省农村信用合作联社" class="bank-name">湖北省农村信用合作联社</span>
 										<span class="bank-num4">尾号8652</span>
 										<span class="card-type card-type-DC"></span>
@@ -95,7 +95,7 @@
 							<li>
 								<div class="card-box">
 									<div class="card-box-name">
-										<span class="bank-logo"><a href="#"><img src="${sc}/statisource/images/bankjh.png"></a></span>
+										<span class="bank-logo"><a href="#"><img src="${sc}/staticsource/images/bankjh.png"></a></span>
 										<span title="中国建设银行" class="bank-name">中国建设银行</span>
 										<span class="bank-num4">尾号9098</span>
 										<span class="card-type card-type-CC"></span>
@@ -116,7 +116,7 @@
 							<li>
 								<div class="card-box">
 									<div class="card-box-name">
-										<span class="bank-logo"><a href="#"><img src="${sc}/statisource/images/bankns.png"></a></span>
+										<span class="bank-logo"><a href="#"><img src="${sc}/staticsource/images/bankns.png"></a></span>
 										<span title="湖北省农村信用合作联社" class="bank-name">湖北省农村信用合作联社</span>
 										<span class="bank-num4">尾号8652</span>
 										<span class="card-type card-type-DC"></span>

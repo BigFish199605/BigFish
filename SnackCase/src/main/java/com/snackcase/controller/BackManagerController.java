@@ -12,4 +12,9 @@ public class BackManagerController {
 		
 		return "/back/index";
 	}
+	@RequestMapping("/test2")
+	public String test2() {
+		
+		return "/back/库存管理";
+	}
 }

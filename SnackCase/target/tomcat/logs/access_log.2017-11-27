@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [27/Nov/2017:00:06:29 +0800] "GET /back HTTP/1.1" 200 15995 http-bio-8090-exec-1 700
+0:0:0:0:0:0:0:1 - - [27/Nov/2017:00:06:29 +0800] "GET /staticsource/css/amazeui.min.css HTTP/1.1" 304 - http-bio-8090-exec-7 214
+0:0:0:0:0:0:0:1 - - [27/Nov/2017:00:06:29 +0800] "GET /staticsource/js/app.js HTTP/1.1" 304 - http-bio-8090-exec-4 213
+0:0:0:0:0:0:0:1 - - [27/Nov/2017:00:06:29 +0800] "GET /staticsource/js/jquery.min.js HTTP/1.1" 304 - http-bio-8090-exec-3 213
+0:0:0:0:0:0:0:1 - - [27/Nov/2017:00:06:29 +0800] "GET /staticsource/css/admin.css HTTP/1.1" 304 - http-bio-8090-exec-2 217
+0:0:0:0:0:0:0:1 - - [27/Nov/2017:00:06:29 +0800] "GET /staticsource/js/amazeui.min.js HTTP/1.1" 304 - http-bio-8090-exec-3 3
+0:0:0:0:0:0:0:1 - - [27/Nov/2017:00:06:29 +0800] "GET /staticsource/i/logo.png HTTP/1.1" 304 - http-bio-8090-exec-3 10
+0:0:0:0:0:0:0:1 - - [27/Nov/2017:00:06:29 +0800] "GET /staticsource/i/icoAdd.png HTTP/1.1" 304 - http-bio-8090-exec-9 2
+0:0:0:0:0:0:0:1 - - [27/Nov/2017:00:06:29 +0800] "GET /staticsource/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1" 304 - http-bio-8090-exec-3 25

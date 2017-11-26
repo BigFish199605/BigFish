@@ -103,51 +103,49 @@
     
     <div class="sideMenu am-icon-dashboard" style="color:#aeb2b7; margin: 10px 0 0 0;"> 欢迎系统管理员：清风抚雪</div>
     <div class="sideMenu">
-      <h3 class="am-icon-flag"><em></em> <a href="#">商品管理</a></h3>
+      <div class="sideMenu am-icon-dashboard" style="color:#aeb2b7; margin: 10px 0 0 0;"> 欢迎系统管理员：清风抚雪</div>
+    <div class="sideMenu">
+      <h3 class="am-icon-flag"><em></em>商品管理</h3>
       <ul>
         <li><a href="">商品列表</a></li>
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>添加新商品</li>
-        <li>商品分类</li>
-        <li>用户评论</li>
-        <li>商品回收站</li>
-        <li>库存管理 </li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemManage">添加新商品</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemKind">商品分类</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemPerson">用户评论</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemState">商品回收站</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemNumber">库存管理</a> </li>
       </ul>
-      <h3 class="am-icon-cart-plus"><em></em> <a href="#"> 订单管理</a></h3>
+      <h3 class="am-icon-cart-plus"><em></em>  订单管理</h3>
       <ul>
-        <li>订单列表</li>
-        <li>合并订单</li>
-        <li>订单打印</li>
-        <li>添加订单</li>
-        <li>发货单列表</li>
-        <li>换货单列表</li>
+      	<!-- 所有用户的订单列表 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="orderList">订单列表</a></li>
+        <!-- 指定用户的订单 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="orderUser">用户订单</a></li>
+        <!-- 已完成支付的用户订单列表 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="orderComplete">发货单列表</a></li>
+        <!-- 类似easymall表单下载 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="orderDownload">订单打印</a></li>
       </ul>
-      <h3 class="am-icon-users on"><em></em> <a href="#">会员管理</a></h3>
+      <h3 class="am-icon-users"><em></em>会员界面</h3>
       <ul>
-        <li>会员列表 </li>
-        <li>未激活会员</li>
-        <li>团队系谱图</li>
-        <li>会员推荐图</li>
-        <li>推荐列表</li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="user">会员列表</a> </li>
+        <!-- 会员是否启用和一般信息修改 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="userInfo">会员信息</a></li>
+        <!-- 角色模块 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="userLevel">会员等级</a></li>
+        <!-- 权限模块 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="levelInfo">等级权限</a></li>
       </ul>
-      <h3 class="am-icon-volume-up"><em></em> <a href="#">信息通知</a></h3>
+      <h3 class="am-icon-users"><em></em>员工界面</h3>
       <ul>
-        <li>站内消息 /留言 </li>
-        <li>短信</li>
-        <li>邮件</li>
-        <li>微信</li>
-        <li>客服</li>
-      </ul>
-      <h3 class="am-icon-gears"><em></em> <a href="#">系统设置</a></h3>
-      <ul>
-        <li>数据备份</li>
-        <li>邮件/短信管理</li>
-        <li>上传/下载</li>
-        <li>权限</li>
-        <li>网站设置</li>
-        <li>第三方支付</li>
-        <li>提现 /转账 出入账汇率</li>
-        <li>平台设置</li>
-        <li>声音文件</li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="staff">员工列表</a> </li>
+        <!-- 员工的一般信息修改 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="staffInfo">员工信息</a></li>
+        <!-- 添加新员工 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="staffAdd">添加新员工信息</a></li>
+        <!-- 角色模块 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="staffJob">员工职位</a></li>
+        <!-- 权限模块 -->
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="jobInfo">角色权限</a></li>
       </ul>
     </div>
     <!-- sideMenu End --> 
@@ -505,7 +503,7 @@
  
  <div class="foods">
   <ul>
-    版权所有@2015. 模板收集自 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> -  More Templates<a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+    零食铺子管理系统
   </ul>
   <dl>
     <a href="" title="返回头部" class="am-icon-btn am-icon-arrow-up"></a>

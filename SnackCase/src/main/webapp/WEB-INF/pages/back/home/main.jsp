@@ -4,9 +4,11 @@
 <html>
 <head>
 	<title></title>
+	</head>
 <body>
  
 <div class="admin">
+	
    <div class="admin-index">
       <dl data-am-scrollspy="{animation: 'slide-right', delay: 100}">
         <dt class="qs"><i class="am-icon-users"></i></dt>
@@ -47,54 +49,6 @@
             <td>普卡</td>
             <td><a href="#">4534</a></td>
             <td>+20</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>银卡</td>
-            <td>银卡</td>
-            <td>4534</td>
-            <td>+2</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>金卡</td>
-            <td>金卡</td>
-            <td>4534</td>
-            <td>+10</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>钻卡</td>
-            <td>钻卡</td>
-            <td>4534</td>
-            <td>+50</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>合计</td>
-            <td>合计</td>
-            <td>4534</td>
-            <td>+50</td>
-            <td> 4534 </td>
-          </tr>
-        </tbody>
-      </table>
-      <table class="am-table">
-        <thead>
-          <tr>
-            <th>团队统计</th>
-            <th>全部会员</th>
-            <th>全部未激活</th>
-            <th>今日新增</th>
-            <th>今日未激活</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>普卡</td>
-            <td>普卡</td>
-            <td>4534</td>
-            <td>+50</td>
             <td> 4534 </td>
           </tr>
           <tr>

@@ -12,7 +12,8 @@
     <div class="sideMenu">
       <h3 class="am-icon-users"><em></em>员工界面</h3>
       <ul>
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="staff">员工列表</a> </li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="staff">员工列表</a> </li>
         <!-- 员工的一般信息修改 -->
         <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="staffInfo">员工信息</a></li>
         <!-- 添加新员工 -->

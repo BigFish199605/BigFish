@@ -13,11 +13,15 @@
       <h3 class="am-icon-flag"><em></em>商品管理</h3>
       <ul>
         <li><a href="">商品列表</a></li>
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemManage">添加新商品</a></li>
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemKind">商品分类</a></li>
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemPerson">用户评论</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc}/back/item/add" onclick="linkHighlighted(this)" target="main">添加新商品</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc}/back/item/kind" onclick="linkHighlighted(this)" target="main">商品分类</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc}/back/item/comment" onclick="linkHighlighted(this)" target="main">用户评论</a></li>
         <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemState">商品回收站</a></li>
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="itemNumber">库存管理</a> </li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc}/back/item/num" onclick="linkHighlighted(this)" target="main">库存管理</a> </li>
       </ul>
     </div>
     <!-- sideMenu End --> 

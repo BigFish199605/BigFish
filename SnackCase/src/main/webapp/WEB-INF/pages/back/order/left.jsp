@@ -13,14 +13,20 @@
       <h3 class="am-icon-cart-plus"><em></em>  订单管理</h3>
       <ul>
       	<!-- 所有用户的订单列表 -->
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="orderList">订单列表</a></li>
+      	
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc }/back/order/orderList" onclick="linkHighlighted(this)" target="main">订单列表</a></li>
         <!-- 指定用户的订单 -->
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="orderUser">用户订单</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc }/back/order/orderUser" onclick="linkHighlighted(this)" target="main">用户订单</a></li>
         <!-- 已完成支付的用户订单列表 -->
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="orderComplete">发货单列表</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc }/back/order/orderComplete" onclick="linkHighlighted(this)" target="main">发货单列表</a></li>
         <!-- 类似easymall表单下载 -->
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="orderDownload">订单打印</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc }/back/order/orderDownload" onclick="linkHighlighted(this)" target="main">订单打印</a></li>
       </ul>
+     
     </div>
     <!-- sideMenu End --> 
     

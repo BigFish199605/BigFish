@@ -2,6 +2,7 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<<<<<<< HEAD
 <mapper namespace="com.snackcase.mapper.ItemMapper">
 
 
@@ -11,4 +12,9 @@
   	</update>
       
 	
+=======
+<mapper namespace="com. snackcase.mapper.ItemMapper">
+	
+
+>>>>>>> b0936ae8776667e80061d7dd697d17b21408696b
 </mapper>

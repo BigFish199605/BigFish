@@ -260,7 +260,7 @@
 						<p><i class="am-icon-newspaper-o"></i>个人资料</p>
 						<ul>
 							<li> <a href="information">个人信息</a></li>
-							<li> <a href="#">安全设置</a></li>
+							<li> <a href="updateInfo">修改资料</a></li>
 							<li> <a href="address">地址管理</a></li>
 							<li> <a href="cardlist">快捷支付</a></li>
 						</ul>

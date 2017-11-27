@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="${sc}/staticsource/css/admin.css">
 <script src="${sc}/staticsource/js/jquery.min.js"></script>
 <script src="${sc}/staticsource/js/app.js"></script>
+<<<<<<< HEAD
 <script type="text/javascript">
 	function toModule(moduleName) {
 		top.main.location.href = "/back/item/" + moduleName + '.action';
@@ -26,6 +27,8 @@
 	
 </script>
 
+=======
+>>>>>>> b0936ae8776667e80061d7dd697d17b21408696b
 
 </head>
 <body>

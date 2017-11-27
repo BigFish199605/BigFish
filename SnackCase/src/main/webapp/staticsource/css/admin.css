@@ -260,7 +260,7 @@ form .form-group:last-child{padding-bottom:0;}
 .admin-bread .bread{margin-bottom:0;}
 .admin-bread span{float:right;font-size:12px;color:#666;line-height:36px;}*/
 
-.admin{position:fixed;right:0;bottom:0;top:0px;left:0px; overflow-y:auto; overflow-x:hidden; background-color: #f1f2f7;}
+.admin{position:absolute;right:0;bottom:0;top:0px;left:0px; overflow-y:auto; overflow-x:hidden; background-color: #f1f2f7;z-index:9999}
 
 /*.alert{margin-bottom:20px;}
 .admin-panel td{line-height:24px;}
@@ -271,7 +271,8 @@ form .form-group:last-child{padding-bottom:0;}
 .tognzhi .am-btn-xs span{ font-size: 9px; font-weight: 100; padding:2px 5px;position: relative;
   top: -10px;
   right: -5px; }
-.tognzhi .am-dropdown-content{ border-radius: 4px;box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.5);border: none; padding: 0px 0 9px 0;}
+.tognzhi .am-dropdown-content{ border-radius: 4px;box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.5);border: none; padding: 0px 0 9px 0; position:absolute;
+    z-index:20;}
 
 .tognzhi .am-dropdown-content span{font-size: 9px; font-weight: 100; padding:1px 4px; margin-left: 7px;}
 .tognzhi .am-dropdown-content:after{border-bottom-color:#a1d166;bottom:-1px}

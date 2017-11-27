@@ -12,7 +12,8 @@
     <div class="sideMenu">
       <h3 class="am-icon-flag"><em></em>商品管理</h3>
       <ul>
-        <li><a href="">商品列表</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc}/back/item/findAll" onclick="linkHighlighted(this)" target="main">商品列表</a></li>
         <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
         <a href="${sc}/back/item/add" onclick="linkHighlighted(this)" target="main">添加新商品</a></li>
         <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>

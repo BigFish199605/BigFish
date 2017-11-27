@@ -41,10 +41,10 @@
 					   <div class="nav-cont">
 							<ul>
 								<li class="index"><a href="">首页</a></li>
-                                <li class="qc"><a href="sort">闪购</a></li>
-                                <li class="qc"><a href="sort">限时抢</a></li>
-                                <li class="qc"><a href="sort">团购</a></li>
-                                <li class="qc last"><a href="sort">大包装</a></li>
+                                <li class="qc"><a href="introduction">闪购</a></li>
+                                <li class="qc"><a href="introduction">限时抢</a></li>
+                                <li class="qc"><a href="introduction">团购</a></li>
+                                <li class="qc last"><a href="introduction">大包装</a></li>
 							</ul>
 						   
 						</div>					

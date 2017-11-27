@@ -7,12 +7,23 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+<<<<<<< HEAD
 import com.snackcase.pojo.Item;
 import com.snackcase.service.ItemService;
 
+=======
+import com.snackcase.controller.CalendarController;
+import com.snackcase.pojo.Item;
+import com.snackcase.service.ItemService;
+
+
+>>>>>>> b0936ae8776667e80061d7dd697d17b21408696b
 @Controller
 @RequestMapping("/back/item")
-public class ItemController {
+public class ItemController extends TimeTool{
+	
+	@Autowired
+	private ItemService itemService;
 	
 	@Autowired
 	private ItemService itemService;
@@ -39,6 +50,7 @@ public class ItemController {
 		
 		return "/back/item/库存管理";
 	}
+<<<<<<< HEAD
 	
 	
 	
@@ -50,4 +62,17 @@ public class ItemController {
 		
 		return "redirect:/back/item/num";
 	}
+=======
+	@RequestMapping("/findAll")
+	public String findAll(Model model){
+		
+		List<Item> items = itemService.findAll();
+		
+		model.addAttribute("items",items);
+		
+		return "/back/item/商品列表";
+	}
+	
+	
+>>>>>>> b0936ae8776667e80061d7dd697d17b21408696b
 }

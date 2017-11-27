@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\新建文件夹\github\BigFish\SnackCase\src\main\java\com\snackcase\service\ItemService.java
 D:\新建文件夹\github\BigFish\SnackCase\src\main\java\com\snackcase\controller\CalendarController.java
 D:\新建文件夹\github\BigFish\SnackCase\src\main\java\com\snackcase\service\ItemServiceImpl.java
@@ -12,3 +13,69 @@ D:\新建文件夹\github\BigFish\SnackCase\src\main\java\com\snackcase\controll
 D:\新建文件夹\github\BigFish\SnackCase\src\main\java\com\snackcase\mapper\OrderMapper.java
 D:\新建文件夹\github\BigFish\SnackCase\src\main\java\com\snackcase\pojo\Order.java
 D:\新建文件夹\github\BigFish\SnackCase\src\main\java\com\snackcase\service\OrderService.java
+=======
+<<<<<<< HEAD
+D:\BigFish\SnackCase\src\main\java\com\snackcase\controller\LoginController.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\controller\RegistController.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\service\OrderService.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\controller\CalendarController.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\controller\back\ItemController.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\mapper\OrderMapper.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\pojo\User.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\service\ItemServiceImpl.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\service\ItemService.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\service\RegistService.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\pojo\Item.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\controller\back\TimeTool.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\controller\OrderController.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\mapper\ItemMapper.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\pojo\Order.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\controller\HomeController.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\service\OrderServiceImpl.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\mapper\RegistMapper.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\service\RegistServiceImpl.java
+D:\BigFish\SnackCase\src\main\java\com\snackcase\controller\back\BackManagerController.java
+=======
+<<<<<<< HEAD
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\controller\back\ItemController.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\pojo\Item.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\service\ItemServiceImpl.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\controller\back\BackStaffController.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\mapper\BackOrderMapper.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\controller\CalendarController.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\controller\LoginController.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\controller\back\BackManagerController.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\mapper\OrderMapper.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\service\BackOrderServiceImpl.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\mapper\ItemMapper.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\service\BackOrderService.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\controller\OrderController.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\controller\back\BackOrderController.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\controller\HomeController.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\pojo\Order.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\service\OrderServiceImpl.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\service\OrderService.java
+D:\项目v\BigFish\SnackCase\src\main\java\com\snackcase\service\ItemService.java
+=======
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\controller\CalendarController.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\controller\HomeController.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\service\ItemService.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\controller\OrderController.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\controller\back\BackManagerController.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\pojo\Item.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\service\OrderService.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\controller\RegistController.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\pojo\User.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\controller\back\ItemController.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\service\ItemServiceImpl.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\mapper\ItemMapper.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\mapper\OrderMapper.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\pojo\Order.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\service\OrderServiceImpl.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\mapper\RegistMapper.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\service\RegistService.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\service\RegistServiceImpl.java
+D:\GitHub\BigFish\SnackCase\src\main\java\com\snackcase\controller\LoginController.java
+>>>>>>> d2eb4786c97f25b79bee1c6885a9f8bfba28f54d
+>>>>>>> 4645879ec83f76507ce8215838aa924644ef92f5
+>>>>>>> b0936ae8776667e80061d7dd697d17b21408696b

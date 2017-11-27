@@ -19,21 +19,4 @@
 	
 	
 	</select>
-<<<<<<< HEAD
-	
-	<select id="findonebyname" resultType="User">
-	
-	select * from `user` where username=#{username}
-	
-	</select>
-=======
->>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
-
-
-
-
-<<<<<<< HEAD
 </mapper>
-=======
-</mapper>
->>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0

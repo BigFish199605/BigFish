@@ -1,15 +1,22 @@
 package com.snackcase.controller.back;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.snackcase.controller.CalendarController;
+import com.snackcase.pojo.Item;
+import com.snackcase.service.ItemService;
 
 @Controller
 public class BackManagerController extends CalendarController{
-
+	@Autowired
+	private ItemService itemService;
+	
 	@RequestMapping("/back")
 	public String back() {
 		
@@ -30,9 +37,10 @@ public class BackManagerController extends CalendarController{
 	@RequestMapping("/homeMain")
 	public String homeMain(Model model){
 		//TODO
-		model.addAttribute("users", "user");
-		model.addAttribute("orders", "user");
-		model.addAttribute("items", "user");
+		List<Item> items=itemService.findAll();
+		model.addAttribute("users", items);
+		model.addAttribute("orders", items);
+		model.addAttribute("items", items);
 		model.addAttribute("userNum", "666");
 		model.addAttribute("itemNum", "666");
 		model.addAttribute("orderToday", "666");

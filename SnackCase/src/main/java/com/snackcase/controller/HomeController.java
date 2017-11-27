@@ -42,10 +42,6 @@ public class HomeController {
 		return "/cart/cart";
 	}
 	
-	@RequestMapping("/pay")
-	public String pay() {
-		return "/pay/pay";
-	}
 	
 	@RequestMapping("/index")
 	public String index() {

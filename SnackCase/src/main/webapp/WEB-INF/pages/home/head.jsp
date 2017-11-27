@@ -13,8 +13,17 @@
 				<ul class="message-l">
 					<div class="topMessage">
 						<div class="menu-hd">
-							<a href="tologin"  class="h">亲，请登录</a>
-							<a href="toregister" target="_top">免费注册</a>
+						<div id="common_head">
+	
+		
+	<c:if test="${!empty user.name}">
+	 欢迎${user.name}&nbsp;&nbsp;|<a href="/zhuxiao">注销</a>
+	</c:if>
+	<c:if test="${empty user.name }">
+		<a href="tologin"  class="h">亲，请登录</a>
+		<a href="toregister" target="_top">免费注册</a>
+	</c:if>
+	
 						</div>
 					</div>
 				</ul>

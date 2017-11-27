@@ -43,7 +43,30 @@
 												                </div>																
 																
 																<div class="sort-side">
-																	
+																	<dl class="dl-sort">
+																		<dt><span title="蛋糕">蛋糕</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="蛋糕">点心</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
 
 																</div>
 
@@ -67,25 +90,38 @@
 													              </dl>
 												                </div>																	
 																<div class="sort-side">
-																
-												<c:forEach items="${list}" var="prod">
-													<div id="prod_div">
-														<a href=""> <img
-															src="${sc }/staticsource${prod.image}"></img>
-														</a>
-														<div id="prod_name_div">
-																${prod.name }
-														</div>
-														<div id="prod_price_div">￥${prod.price }元</div>
-														<div>
-															<div id="gotocart_div">
-																加入购物车
-															</div>
-															<div id="say_div">库存：${prod.num}</div>
-														</div>
-													</div>
-												</c:forEach>
-												
+																	<dl class="dl-sort">
+																		<dt><span title="饼干">饼干</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="薯片">薯片</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="蛋糕">虾条</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
 																</div>
 
 															</div>
@@ -108,7 +144,30 @@
 													              </dl>
 												                </div>																	
 																<div class="sort-side">
-												
+																	<dl class="dl-sort">
+																		<dt><span title="猪肉脯">猪肉脯</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="牛肉丝">牛肉丝</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="小香肠">小香肠</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
 																</div>
 
 															</div>
@@ -131,7 +190,32 @@
 													              </dl>
 																</div>																
 																<div class="sort-side">
-												
+																	<dl class="dl-sort">
+																		<dt><span title="豆干">豆干</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="干笋">干笋</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="鸭脖">鸭脖</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
 																</div>
 
 															</div>
@@ -154,7 +238,30 @@
 													              </dl>
 																</div>																
 																<div class="sort-side">
-																	
+																	<dl class="dl-sort">
+																		<dt><span title="蛋糕">坚果</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="蛋糕">锅巴</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
 																</div>
 
 															</div>
@@ -177,7 +284,30 @@
 													              </dl>
 																</div>																
 																<div class="sort-side">
-																	
+																	<dl class="dl-sort">
+																		<dt><span title="糖果">糖果</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="蜜饯">蜜饯</span></dt>
+																		<dd><a title="猕猴桃干" href="#"><span>猕猴桃干</span></a></dd>
+																		<dd><a title="糖樱桃" href="#"><span>糖樱桃</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
 																</div>
 
 															</div>
@@ -200,7 +330,30 @@
 													              </dl>
 																</div>																
 																<div class="sort-side">
-																	
+																	<dl class="dl-sort">
+																		<dt><span title="蛋糕">巧克力</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="蛋糕">果冻</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
 																</div>
 
 															</div>
@@ -223,7 +376,32 @@
 													              </dl>
 																</div>																
 																<div class="sort-side">
-																	
+																	<dl class="dl-sort">
+																		<dt><span title="海带丝">海带丝</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="小鱼干">小鱼干</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="鱿鱼丝">鱿鱼丝</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																	</dl>
 																</div>
 
 															</div>
@@ -246,7 +424,30 @@
 													              </dl>
 																</div>																
 																<div class="sort-side">
-																	
+																	<dl class="dl-sort">
+																		<dt><span title="蛋糕">蛋糕</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="蛋糕">点心</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
 																</div>
 
 															</div>
@@ -269,7 +470,30 @@
 													              </dl>
 																</div>																
 																<div class="sort-side">
-																	
+																	<dl class="dl-sort">
+																		<dt><span title="大包装">大包装</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="两件套">两件套</span></dt>
+																		<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+																		<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+																		<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+																		<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+																		<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+																		<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+																		<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+																		<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+																		<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+																	</dl>
 																</div>
 
 															</div>

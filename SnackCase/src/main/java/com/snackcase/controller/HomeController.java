@@ -1,25 +1,17 @@
 package com.snackcase.controller;
 
-import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.snackcase.pojo.Item;
-import com.snackcase.service.ItemService;
 
 @Controller
 public class HomeController {
-	@Autowired 
-	private ItemService itemService;
 	
 	@RequestMapping("/home")
-	public String home(Model model) {
+	public String home() {
 		
-		/*List<Item> list = itemService.findAll();
-		model.addAttribute("list", list);*/
+		
 		return "/home/home";
 	}
 	
@@ -30,9 +22,7 @@ public class HomeController {
 	
 
 	@RequestMapping("/sort")
-	public String sort(Model model) {
-		List<Item> list = itemService.findAll();
-		model.addAttribute("list", list);
+	public String sort() {
 		return "/product/sort";
 	}
 	
@@ -47,7 +37,15 @@ public class HomeController {
 		return "/user/collection";
 	}
 	
+	@RequestMapping("/add")
+	public String add() {
+		return "/cart/cart";
+	}
 	
+	@RequestMapping("/pay")
+	public String pay() {
+		return "/pay/pay";
+	}
 	
 	@RequestMapping("/index")
 	public String index() {
@@ -86,10 +84,9 @@ public class HomeController {
 	
 	@RequestMapping("/cardlist")
 	public String card() {
-		
 		return "/user/cardList";
 		
 	}
-	
+
 
 }

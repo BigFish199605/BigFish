@@ -1,5 +1,15 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: Administrator
 Build-Jdk: 1.8.0_77
+=======
+<<<<<<< HEAD
+Build-Jdk: 1.7.0_15
+Built-By: Administrator
+=======
+Built-By: lenovo
+Build-Jdk: 1.8.0_45
+>>>>>>> 4645879ec83f76507ce8215838aa924644ef92f5
+>>>>>>> b0936ae8776667e80061d7dd697d17b21408696b
 Created-By: Maven Integration for Eclipse
 

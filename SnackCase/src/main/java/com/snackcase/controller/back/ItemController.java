@@ -1,11 +1,23 @@
 package com.snackcase.controller.back;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.snackcase.controller.CalendarController;
+import com.snackcase.pojo.Item;
+import com.snackcase.service.ItemService;
+
 
 @Controller
 @RequestMapping("/back/item")
-public class ItemController {
+public class ItemController extends TimeTool{
+	
+	@Autowired
+	private ItemService itemService;
 	
 	@RequestMapping("/add")
 	public String add(){
@@ -23,4 +35,15 @@ public class ItemController {
 	public String num(){
 		return "/back/item/库存管理";
 	}
+	@RequestMapping("/findAll")
+	public String findAll(Model model){
+		
+		List<Item> items = itemService.findAll();
+		
+		model.addAttribute("items",items);
+		
+		return "/back/item/商品列表";
+	}
+	
+	
 }

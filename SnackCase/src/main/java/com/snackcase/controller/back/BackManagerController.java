@@ -1,11 +1,14 @@
 package com.snackcase.controller.back;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.snackcase.controller.CalendarController;
+
 @Controller
-public class BackManagerController {
+public class BackManagerController extends CalendarController{
 
 	@RequestMapping("/back")
 	public String back() {
@@ -25,7 +28,15 @@ public class BackManagerController {
 	
 	//转向home的操作页面
 	@RequestMapping("/homeMain")
-	public String homeMain(){
+	public String homeMain(Model model){
+		//TODO
+		model.addAttribute("users", "user");
+		model.addAttribute("orders", "user");
+		model.addAttribute("items", "user");
+		model.addAttribute("userNum", "666");
+		model.addAttribute("itemNum", "666");
+		model.addAttribute("orderToday", "666");
+		model.addAttribute("orderSum", "666");
 		return "/back/home/main";
 	}
 	@RequestMapping("/{model}/Left")

@@ -12,22 +12,22 @@
    <div class="admin-index">
       <dl data-am-scrollspy="{animation: 'slide-right', delay: 100}">
         <dt class="qs"><i class="am-icon-users"></i></dt>
-        <dd>455</dd>
-        <dd class="f12">团队数量</dd>
+        <dd>${userNum }</dd>
+        <dd class="f12">会员数量</dd>
       </dl>
       <dl data-am-scrollspy="{animation: 'slide-right', delay: 300}">
         <dt class="cs"><i class="am-icon-area-chart"></i></dt>
-        <dd>455</dd>
+        <dd>${orderToday }</dd>
         <dd class="f12">今日收入</dd>
       </dl>
       <dl data-am-scrollspy="{animation: 'slide-right', delay: 600}">
         <dt class="hs"><i class="am-icon-shopping-cart"></i></dt>
-        <dd>455</dd>
+        <dd>${itemNum }</dd>
         <dd class="f12">商品数量</dd>
       </dl>
       <dl data-am-scrollspy="{animation: 'slide-right', delay: 900}">
         <dt class="ls"><i class="am-icon-cny"></i></dt>
-        <dd>455</dd>
+        <dd>${orderSum }</dd>
         <dd class="f12">全部收入</dd>
       </dl>
     </div>
@@ -36,47 +36,19 @@
       <table class="am-table">
         <thead>
           <tr>
-            <th>团队统计</th>
-            <th>全部会员</th>
-            <th>全部未激活</th>
-            <th>今日新增</th>
-            <th>今日未激活</th>
+            <th>会员id</th>
+            <th>会员姓名</th>
+            <th>会员级别</th>
+            <th>会员电话</th>
+            <th>会员邮箱</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>普卡</td>
+            <td>1</td>
             <td>普卡</td>
             <td><a href="#">4534</a></td>
             <td>+20</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>银卡</td>
-            <td>银卡</td>
-            <td>4534</td>
-            <td>+2</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>金卡</td>
-            <td>金卡</td>
-            <td>4534</td>
-            <td>+10</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>钻卡</td>
-            <td>钻卡</td>
-            <td>4534</td>
-            <td>+50</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>合计</td>
-            <td>合计</td>
-            <td>4534</td>
-            <td>+50</td>
             <td> 4534 </td>
           </tr>
         </tbody>
@@ -84,11 +56,31 @@
       <table class="am-table">
         <thead>
           <tr>
-            <th>资金统计</th>
-            <th>账户总收入</th>
-            <th>账户总支出</th>
-            <th>账户余额</th>
-            <th>今日收入</th>
+            <th>商品名称</th>
+            <th>商品数量</th>
+            <th>商品添加时间</th>
+            <th>商品单价</th>
+            <th>商品状态</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>普卡</td>
+            <td><a href="#">4534</a></td>
+            <td>+20</td>
+            <td> 4534 </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="am-table">
+        <thead>
+          <tr>
+            <th>订单id</th>
+            <th>添加时间</th>
+            <th>会员级别</th>
+            <th>订单金额</th>
+            <th>是否完成</th>
           </tr>
         </thead>
         <tbody>
@@ -97,34 +89,6 @@
             <td>普卡</td>
             <td>4534</td>
             <td>+20</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>银卡</td>
-            <td>银卡</td>
-            <td>4534</td>
-            <td>+2</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>金卡</td>
-            <td>金卡</td>
-            <td>4534</td>
-            <td>+10</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>钻卡</td>
-            <td>钻卡</td>
-            <td>4534</td>
-            <td>+50</td>
-            <td> 4534 </td>
-          </tr>
-          <tr>
-            <td>合计</td>
-            <td>合计</td>
-            <td>4534</td>
-            <td>+50</td>
             <td> 4534 </td>
           </tr>
         </tbody>

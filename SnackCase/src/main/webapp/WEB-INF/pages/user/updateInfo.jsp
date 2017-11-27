@@ -44,15 +44,15 @@
 								<div class="am-form-group">
 									<label for="user-name2" class="am-form-label">昵称</label>
 									<div class="am-form-content">
-										小三
-                                        
+										<input type="text" id="user-name2" placeholder="${user.nickname }">
+                                          <small>昵称长度不能超过40个汉字</small>
 									</div>
 								</div>
 
 								<div class="am-form-group">
 									<label for="user-name" class="am-form-label">姓名</label>
 									<div class="am-form-content">
-										小四
+										<input type="text" id="user-name2" placeholder="${user.name }">
                                          
 									</div>
 								</div>
@@ -60,34 +60,63 @@
 								<div class="am-form-group">
 									<label class="am-form-label">性别</label>
 									<div class="am-form-content sex">
-										男
+										<label class="am-radio-inline">
+											<input type="radio" name="radio10" value="male" data-am-ucheck> 男
+										</label>
+										<label class="am-radio-inline">
+											<input type="radio" name="radio10" value="female" data-am-ucheck> 女
+										</label>
+										<label class="am-radio-inline">
+											<input type="radio" name="radio10" value="secret" data-am-ucheck> 保密
+										</label>
 									</div>
 								</div>
 
 								<div class="am-form-group">
 									<label for="user-birth" class="am-form-label">生日</label>
 									<div class="am-form-content birth">
-										19960521
+										<div class="birth-select">
+											<select data-am-selected>
+												<option value="a">2015</option>
+												<option value="b">1987</option>
+											</select>
+											<em>年</em>
+										</div>
+										<div class="birth-select2">
+											<select data-am-selected>
+												<option value="a">12</option>
+												<option value="b">8</option>
+											</select>
+											<em>月</em></div>
+										<div class="birth-select2">
+											<select data-am-selected>
+												<option value="a">21</option>
+												<option value="b">23</option>
+											</select>
+											<em>日</em></div>
 									</div>
 							
 								</div>
 								<div class="am-form-group">
 									<label for="user-phone" class="am-form-label">电话</label>
 									<div class="am-form-content">
-										123456789
+										<input id="user-phone" placeholder="${user.telephone }" type="tel">
 
 									</div>
 								</div>
 								<div class="am-form-group">
 									<label for="user-email" class="am-form-label">电子邮件</label>
 									<div class="am-form-content">
-										144852933@qq.com
+										<input id="user-email" placeholder="${user.email }" type="email">
 
 									</div>
 								</div>
 								
 								
-							
+								<div class="info-btn">
+									<a href="tosave"><div class="am-btn am-btn-danger">保存修改</div></a>
+								</div>
+
 							</form>
 						</div>
 

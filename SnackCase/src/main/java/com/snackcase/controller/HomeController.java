@@ -90,6 +90,25 @@ public class HomeController {
 		return "/user/cardList";
 		
 	}
-	
-
+	//修改个人信息请求
+	@RequestMapping("/tosave")
+	public String tosave() {
+		
+		return "/user/information";
+		
+	}
+	//点击修改个人资料
+	@RequestMapping("/updateInfo")
+	public String toupdate() {
+		
+		return "/user/updateInfo";
+		
+	}
+	//跳转支付页面
+	@RequestMapping("/pay")
+	public String toupay() {
+		
+		return "/pay/pay";
+		
+	}
 }

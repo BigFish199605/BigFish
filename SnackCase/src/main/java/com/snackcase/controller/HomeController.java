@@ -87,7 +87,6 @@ public class HomeController {
 		return "/user/cardList";
 		
 	}
-<<<<<<< HEAD
 	//修改个人信息请求
 	@RequestMapping("/tosave")
 	public String tosave() {
@@ -109,8 +108,6 @@ public class HomeController {
 		return "/pay/pay";
 		
 	}
-=======
 
 
->>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 }

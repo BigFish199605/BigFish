@@ -28,6 +28,7 @@ public class BackManagerController {
 	public String homeMain(){
 		return "/back/home/main";
 	}
+	
 	@RequestMapping("/{model}/Left")
 	public String Left(@PathVariable String model){
 		return "/back/"+model+"/left";

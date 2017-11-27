@@ -2625,6 +2625,7 @@
 0:0:0:0:0:0:0:1 - - [26/Nov/2017:15:11:13 +0800] "GET /staticsource/images/9.jpg HTTP/1.1" 200 9743 http-bio-8090-exec-6 2
 0:0:0:0:0:0:0:1 - - [26/Nov/2017:15:11:13 +0800] "GET /staticsource/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1" 200 66624 http-bio-8090-exec-3 21
 0:0:0:0:0:0:0:1 - - [26/Nov/2017:15:11:13 +0800] "GET /staticsource/images/clockbg.png HTTP/1.1" 200 3655 http-bio-8090-exec-3 4
+<<<<<<< HEAD
 0:0:0:0:0:0:0:1 - - [26/Nov/2017:15:55:41 +0800] "GET / HTTP/1.1" 200 211 http-bio-8090-exec-1 469
 0:0:0:0:0:0:0:1 - - [26/Nov/2017:15:55:41 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8090-exec-2 19
 0:0:0:0:0:0:0:1 - - [26/Nov/2017:15:55:41 +0800] "GET /home.action HTTP/1.1" 200 55553 http-bio-8090-exec-7 711
@@ -2809,3 +2810,22 @@
 0:0:0:0:0:0:0:1 - - [26/Nov/2017:16:02:12 +0800] "GET /staticsource/images/9.jpg HTTP/1.1" 304 - http-bio-8090-exec-8 2
 0:0:0:0:0:0:0:1 - - [26/Nov/2017:16:02:27 +0800] "GET /home HTTP/1.1" 200 55553 http-bio-8090-exec-8 4
 0:0:0:0:0:0:0:1 - - [26/Nov/2017:16:02:27 +0800] "GET /introduction HTTP/1.1" 404 975 http-bio-8090-exec-8 1
+=======
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:38:15 +0800] "GET / HTTP/1.1" 200 211 http-bio-8090-exec-1 118
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:38:16 +0800] "GET /home.action HTTP/1.1" 200 55553 http-bio-8090-exec-7 193
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:47:20 +0800] "GET /test HTTP/1.1" 404 1013 http-bio-8090-exec-1 65
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /test HTTP/1.1" 200 21213 http-bio-8090-exec-1 822
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /staticsource/js/theme.js HTTP/1.1" 200 656 http-bio-8090-exec-3 8
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /staticsource/css/app.css HTTP/1.1" 200 7517 http-bio-8090-exec-2 16
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /staticsource/css/fullcalendar.min.css HTTP/1.1" 200 15186 http-bio-8090-exec-7 30
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /staticsource/js/moment.js HTTP/1.1" 200 140639 http-bio-8090-exec-10 6
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /staticsource/js/fullcalendar.min.js HTTP/1.1" 200 124839 http-bio-8090-exec-10 4
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /staticsource/img/user04.png HTTP/1.1" 200 35198 http-bio-8090-exec-8 13
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /staticsource/img/user02.png HTTP/1.1" 200 37817 http-bio-8090-exec-4 19
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /staticsource/css/fullcalendar.print.css HTTP/1.1" 200 5565 http-bio-8090-exec-5 22
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:01 +0800] "GET /staticsource/img/logo.png HTTP/1.1" 200 19832 http-bio-8090-exec-9 39
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:48:28 +0800] "GET /calendar.html HTTP/1.1" 404 977 http-bio-8090-exec-9 3
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:49:13 +0800] "GET /test HTTP/1.1" 200 21219 http-bio-8090-exec-9 94
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:49:13 +0800] "GET /staticsource/i/favicon.png HTTP/1.1" 200 1024 http-bio-8090-exec-9 33
+0:0:0:0:0:0:0:1 - - [26/Nov/2017:23:49:16 +0800] "GET /test2 HTTP/1.1" 200 26332 http-bio-8090-exec-9 107
+>>>>>>> 100e206205fd9285ecd5f9afc38627abcafde8ad

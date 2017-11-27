@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class LoginController {
 	
-	@RequestMapping("tologin")
+	/*@RequestMapping("tologin")
 	public String tologin() {
 		return "login/login";
 	}
@@ -15,7 +15,7 @@ public class LoginController {
 	public String toregister() {
 		return "login/register";
 	}
-	
+	*/
 	
 
 }

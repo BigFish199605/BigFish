@@ -14,6 +14,7 @@
 					<div class="topMessage">
 						<div class="menu-hd">
 						<div id="common_head">
+<<<<<<< HEAD
 						
 						<c:if test="${!empty user.name}">
 	 欢迎${user.name}&nbsp;&nbsp;|<a href="/zhuxiao">注销</a>
@@ -25,6 +26,19 @@
 
 					</div>
 					</div>
+=======
+	
+		
+	<c:if test="${!empty user.name}">
+	 欢迎${user.name}&nbsp;&nbsp;|<a href="/zhuxiao">注销</a>
+	</c:if>
+	<c:if test="${empty user.name }">
+		<a href="tologin"  class="h">亲，请登录</a>
+		<a href="toregister" target="_top">免费注册</a>
+	</c:if>
+	
+						</div>
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 					</div>
 				</ul>
 				<ul class="message-r">

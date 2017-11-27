@@ -5,6 +5,6 @@ import java.util.List;
 import com.snackcase.pojo.Order;
 
 public interface BackOrderService {
-	public List<Order> findOrderList();
+	public List<Order> findOrderAll();
 
 }

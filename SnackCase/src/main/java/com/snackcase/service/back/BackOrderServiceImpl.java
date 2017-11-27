@@ -13,9 +13,9 @@ public class BackOrderServiceImpl implements BackOrderService{
 	private BackOrderMapper backOrderMapper;
 
 	@Override
-	public List<Order> findOrderList() {
+	public List<Order> findOrderAll() {
 		// TODO Auto-generated method stub
-		return backOrderMapper.findOrderMapper();
+		return backOrderMapper.findOrderAll();
 	}
 
 }

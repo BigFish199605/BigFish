@@ -4,9 +4,12 @@ import com.snackcase.pojo.User;
 
 public interface RegistService {
 
-	 public void regist(User user);
+	public User findonebyUsername(String username);
 
 	public User findone(String email, String password);
+
+	public void regist(User user);
+
 	
 	
 

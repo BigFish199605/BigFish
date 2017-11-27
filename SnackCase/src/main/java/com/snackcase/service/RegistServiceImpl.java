@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import com.snackcase.mapper.RegistMapper;
 import com.snackcase.pojo.User;
 
+
+
+
 @Service
 public class RegistServiceImpl implements RegistService {
 	@Autowired
@@ -27,7 +30,11 @@ public class RegistServiceImpl implements RegistService {
 	@Override
 	public User findone(String email, String password) {
 		return  registMapper.findone(email, password);
-		
+	}
+
+	@Override
+	public User findonebyUsername(String username) {
+		return findonebyUsername(username);
 	}
 
 }

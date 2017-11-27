@@ -21,7 +21,13 @@
 	<body>
 		<!--头 -->
 		
+<<<<<<< HEAD
+			<%@ include file="../home/head.jsp" %>
+
+						<div class="clear"></div>
+=======
            
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 			<b class="line"></b>
 		<div class="center">
 			<div class="col-main">
@@ -34,7 +40,10 @@
 						</div>
 						
 
+<<<<<<< HEAD
+=======
 						<!--头像 -->
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 						
 
 						<!--个人信息 -->
@@ -50,16 +59,26 @@
 								<div class="am-form-group">
 									<label for="user-name2" class="am-form-label" >昵称</label>
 									<div class="am-form-content">
+<<<<<<< HEAD
+										小三
+                                        
+=======
 										<input type="text" id="user-name2" placeholder="nickname" name="nickname">
                                           <small>昵称长度不能超过40个汉字</small>
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 									</div>
 								</div>
 
 								<div class="am-form-group">
 									<label for="user-name" class="am-form-label" >姓名</label>
 									<div class="am-form-content">
+<<<<<<< HEAD
+										小四
+                                         
+=======
 										<input type="text" id="user-name2" placeholder="name" name="name">
 										
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 									</div>
                                          
 								</div>
@@ -74,6 +93,9 @@
 								<div class="am-form-group">
 									<label class="am-form-label" name="gender">性别</label>
 									<div class="am-form-content sex">
+<<<<<<< HEAD
+										男
+=======
 										<label class="am-radio-inline">
 											<input type="radio" name="gender" value="male" data-am-ucheck> 男
 										</label>
@@ -83,28 +105,46 @@
 										<label class="am-radio-inline">
 											<input type="radio" name="gender" value="secret" data-am-ucheck> 保密
 										</label>
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 									</div>
 								</div>
 
 								<div class="am-form-group">
 									
 									<div class="am-form-content birth">
+<<<<<<< HEAD
+										19960521
+=======
 										<div class="birth-select">
 											
 											</div>
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 									</div>
 							
 								</div>
 								<div class="am-form-group">
 									<label for="user-phone" class="am-form-label" >电话</label>
 									<div class="am-form-content">
+<<<<<<< HEAD
+										123456789
+=======
 										<input id="user-phone" placeholder="telephone" type="tel" name="telephone">
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 
 									</div>
 								</div>
 								<div class="am-form-group">
 									
 									<div class="am-form-content">
+<<<<<<< HEAD
+										144852933@qq.com
+
+									</div>
+								</div>
+								
+								
+							
+=======
 										
 
 									</div>
@@ -139,6 +179,7 @@
 									<input type="submit" class="am-btn am-btn-danger" value="保存"/>
 								</div>
 
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 							</form>
 						</div>
 
@@ -147,6 +188,12 @@
 				</div>
 				<!--底部-->
 				
+<<<<<<< HEAD
+				
+				</div>
+				
+				<%@ include file="../home/frame.jsp" %>
+=======
 			</div>
 
 			<aside class="menu">
@@ -202,6 +249,7 @@
 				</ul>
 
 			</aside>
+>>>>>>> 1c9c78546dbc04ddc37fb0e63e6b46f134a8c8a0
 		</div>
 
 	</body>

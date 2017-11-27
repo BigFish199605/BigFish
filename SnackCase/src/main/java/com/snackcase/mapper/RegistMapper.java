@@ -11,4 +11,6 @@ public interface RegistMapper {
 	public void regist(User user);
 
 	public User findone(@Param("email")String email,@Param("password")String password);
+
+	public User findonebyname(String name);
 }

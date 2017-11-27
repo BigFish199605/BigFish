@@ -35,6 +35,14 @@ public class RegistController {
 			return "login/register";
 		}
 
+		User user1 = registservice.findonebyUsername(user.getUsername());
+		if(user1!=null){
+			model.addAttribute("msg", "用户名已存在");
+		}
+		
+		
+		
+
 		if (password == null || password == "") {
 			model.addAttribute("msg", "密码不能为空");
 

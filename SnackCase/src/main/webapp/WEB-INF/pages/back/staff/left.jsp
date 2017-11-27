@@ -13,15 +13,19 @@
       <h3 class="am-icon-users"><em></em>员工界面</h3>
       <ul>
         <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
-        <a href="staff">员工列表</a> </li>
+        <a href="${sc }/back/staff/staff" onclick="linkHighlighted(this)" target="main">员工列表</a> </li>
         <!-- 员工的一般信息修改 -->
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="staffInfo">员工信息</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc }/back/staff/staffInfo" onclick="linkHighlighted(this)" target="main">员工信息</a></li>
         <!-- 添加新员工 -->
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="staffAdd">添加新员工信息</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc }/back/staff/staffAdd" onclick="linkHighlighted(this)" target="main">添加新员工信息</a></li>
         <!-- 角色模块 -->
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="staffJob">员工职位</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc }/back/staff/staffJob" onclick="linkHighlighted(this)" target="main">员工职位</a></li>
         <!-- 权限模块 -->
-        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="jobInfo">角色权限</a></li>
+        <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>
+        <a href="${sc }/back/staff/jobInfo" onclick="linkHighlighted(this)" target="main">角色权限</a></li>
       </ul>
     </div>
     <!-- sideMenu End --> 

@@ -308,56 +308,6 @@
 								</div>
 
 							</div>
-							<!--优惠券 -->
-							<div class="buy-agio">
-								<li class="td td-coupon">
-
-									<span class="coupon-title">优惠券</span>
-									<select data-am-selected>
-										<option value="a">
-											<div class="c-price">
-												<strong>￥8</strong>
-											</div>
-											<div class="c-limit">
-												【消费满95元可用】
-											</div>
-										</option>
-										<option value="b" selected>
-											<div class="c-price">
-												<strong>￥3</strong>
-											</div>
-											<div class="c-limit">
-												【无使用门槛】
-											</div>
-										</option>
-									</select>
-								</li>
-
-								<li class="td td-bonus">
-
-									<span class="bonus-title">红包</span>
-									<select data-am-selected>
-										<option value="a">
-											<div class="item-info">
-												¥50.00<span>元</span>
-											</div>
-											<div class="item-remainderprice">
-												<span>还剩</span>10.40<span>元</span>
-											</div>
-										</option>
-										<option value="b" selected>
-											<div class="item-info">
-												¥50.00<span>元</span>
-											</div>
-											<div class="item-remainderprice">
-												<span>还剩</span>50.00<span>元</span>
-											</div>
-										</option>
-									</select>
-
-								</li>
-
-							</div>
 							<div class="clear"></div>
 							</div>
 							<!--含运费小计 -->

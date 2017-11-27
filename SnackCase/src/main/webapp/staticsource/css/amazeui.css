@@ -3126,7 +3126,8 @@ fieldset[disabled] .am-checkbox-inline {
 @media only screen and (max-width: 640px) {
   .am-topbar-collapse .am-dropdown.am-active .am-dropdown-content {
     float: none;
-    position: relative;
+    position:absolute;
+    z-index:20;
     width: 100%;
   }
 }

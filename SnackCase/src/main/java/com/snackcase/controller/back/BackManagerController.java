@@ -47,6 +47,7 @@ public class BackManagerController extends CalendarController{
 		model.addAttribute("orderSum", "666");
 		return "/back/home/main";
 	}
+	
 	@RequestMapping("/{model}/Left")
 	public String Left(@PathVariable String model){
 		return "/back/"+model+"/left";

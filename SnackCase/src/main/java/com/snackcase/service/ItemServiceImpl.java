@@ -18,4 +18,14 @@ public class ItemServiceImpl implements ItemService {
 		return itemMapper.findAll();
 	}
 
+	@Override
+	public void delete(int i, String id) {
+		itemMapper.delete(i,id);
+		
+	}
+
+
+	
+	
+
 }

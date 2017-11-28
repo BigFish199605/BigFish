@@ -301,8 +301,6 @@
               <td><div class="am-btn-toolbar">
                   <div class="am-btn-group am-btn-group-xs">
                   <a class="am-btn am-btn-default am-btn-xs am-text-success am-round am-icon-file" data-am-modal="{target: '#my-popups'}" title="详细库存信息（这里包含 销量 库存  损耗，会员全部购买信息  客服备注  销售的全部金额）"></a>
-                  
-                  
                     <button class="am-btn am-btn-default am-btn-xs am-text-secondary am-round" data-am-modal="{target: '#my-popups'}" title="修改库存信息"><span class="am-icon-pencil-square-o" ></span></button>
                     <!-- 用按钮的时候 弹层 后缀需要加 问好 ？#的 时候才有效 真恶心 .html?# -->
                     <button class="am-btn am-btn-default am-btn-xs am-text-danger am-round"  title="删除"><span class="am-icon-trash-o"></span></button>

@@ -10,12 +10,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.snackcase.controller.CalendarController;
 import com.snackcase.pojo.Item;
+import com.snackcase.pojo.User;
 import com.snackcase.service.ItemService;
+import com.snackcase.service.OrderService;
+import com.snackcase.service.back.UserService;
 
 @Controller
 public class BackManagerController extends CalendarController{
 	@Autowired
 	private ItemService itemService;
+	@Autowired
+	private UserService userService;
+	@Autowired
+	private OrderService orderService;
 	
 	@RequestMapping("/back")
 	public String back() {
@@ -38,8 +45,9 @@ public class BackManagerController extends CalendarController{
 	public String homeMain(Model model){
 		//TODO
 		List<Item> items=itemService.findAll();
+		List<User> users=userService.findAll();
 		model.addAttribute("users", items);
-		model.addAttribute("orders", items);
+		model.addAttribute("orders", users);
 		model.addAttribute("items", items);
 		model.addAttribute("userNum", "666");
 		model.addAttribute("itemNum", "666");
